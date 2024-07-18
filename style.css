@@ -56,57 +56,10 @@ nav header .links li a.active {
     background-color: white;
 }
 
-
-/* .categories h3::after {
-    content: "";
-    position: absolute;
-    width: 223px;
-    height: 2px;
-    background-color: rgb(41, 51, 107);
-    top: 15px;
-    
-    right: 203px;
-} */
-
-
-/* .categories h3::before {
-    
-    content: "";
-    position: absolute;
-    width: 223px;
-    height: 2px;
-    background-color: rgb(41, 51, 107);
-    top: 15px;
-    left: 203px;
-}
-
-@media (max-width: 767px) {
-    .categories h3::after {
-        content: "";
-        position: absolute;
-        width: 75px;
-        height: 2px;
-        background-color: rgb(41, 51, 107);
-        top: 15px;
-        right: 8px;
-    }
-    .categories h3::before {
-        left: 5px;
-        content: "";
-        position: absolute;
-        width: 80px;
-        height: 2px;
-        background-color: rgb(41, 51, 107);
-        top: 15px
-    } */
-
-
-/* } */
-
 .category {
     position: relative;
     padding: 50px;
-    background: url(../images/gift-3.jpg) no-repeat center center;
+    background: url(gift-3.jpg) no-repeat center center;
     background-size: cover;
     border: 18px solid white;
     border-radius: 10px;
@@ -144,53 +97,6 @@ nav header .links li a.active {
 }
 
 
-/* .last-items h3::after {
-    content: "";
-    position: absolute;
-    width: 75px;
-    height: 2px;
-    background-color: rgb(41, 51, 107);
-    top: 15px;
-    right: 8px;
-}
-
-.last-items h3::before {
-    left: 0;
-    content: "";
-    position: absolute;
-    width: 120px;
-    height: 2px;
-    background-color: rgb(41, 51, 107);
-    top: 15px;
-    right: 0;
-}
-
-@media (max-width: 767px) {
-    .last-items h3::after {
-        content: "";
-        position: absolute;
-        width: 120px;
-        height: 2px;
-        background-color: rgb(41, 51, 107);
-        top: 15px;
-        right: 8px;
-    }
-    .last-items h3::before {
-        left: 5px;
-        content: "";
-        position: absolute;
-        width: 120px;
-        height: 2px;
-        background-color: rgb(41, 51, 107);
-        top: 15px
-    }
-} */
-
-
-/* .item {
-    display: block;
-    min-width: 300px;
-} */
 
 .last-items .items-container {
     display: grid;
@@ -221,7 +127,7 @@ nav header .links li a.active {
     display: block;
     min-height: 57vh;
     min-width: 50vh;
-    background: url(../images/about-us.jpg) no-repeat center center;
+    background: url(about-us.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 20px;
 }
@@ -230,14 +136,6 @@ nav header .links li a.active {
     background: linear-gradient(45deg, black, #430f44);
     min-height: 50vh;
 }
-
-
-/*  */
-
-
-/* .footer {
-    min-height: 100vh;
-} */
 
 .footer .content .container-ul {
     display: flex;
